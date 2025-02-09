@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'BreakingBad';
+    src: url(../Breaking\ Bad.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    --fuente-breaking-bad: 'BreakingBad', serif;
+    --fuente-helvetica: 'Helvetica', serif;
+    --texto-grande: 40px;
+    --texto-peque: 10px;
+}
+
+
+
+.fondo-imagen{
+    background-image: url("../IMG/fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#poster{
+    display: block;
+    width: 700px;
+    height: 300px;
+    border: 10px outset brown;
+    border-radius: 22px;
+    margin: auto;
+}
+
+#logo{
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+}
+
+#letra{
+    font-family: var(--fuente-breaking-bad);
+    font-size: var(--texto-grande);
+    color: white;
+    text-align: center;
+}
+
+
