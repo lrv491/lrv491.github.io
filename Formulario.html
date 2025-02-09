@@ -1,1 +1,106 @@
-Hola Mundo
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Breaking Bad</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="shortcut icon" href="IMG/icon.png" type="image/x-icon">
+</head>
+<body class="fondo-imagen">
+    <h1>Breaking Bad - Que comience el juego!</h1>
+
+    
+    <form action="mailto:raul.rodriguez@proeducaglobal.com" method="post" class="formulario">
+        <fieldset>
+            <legend>Datos Personales</legend>
+
+            <label for="name">Nombre</label><br>
+            <input type="text" name="name" id="name" required><br>
+
+            <br>
+
+            <label for="apell">Apellidos</label><br>
+            <input type="text" name="apell" id="apell" required><br>
+
+            <br>
+
+            <label for="dni">DNI</label><br>
+            <input type="text" name="dni" id="dni"><br>
+
+            <br>
+
+            <label for="dni">Correo Electrónico</label><br>
+            <input type="email" name="email" id="email" required><br>
+
+            <br>
+
+            <label for="fnac">Fecha de Nacimiento</label><br>
+            <input type="date" name="fnac" id="fnac" class="peque"><br>
+
+            <br>
+
+            <label for="genero">Género</label><br>
+            <input type="radio" name="genero" id="genero" value="mujer">Mujer <br>
+            <input type="radio" name="genero" id="genero" value="hombre">Hombre <br>
+            <input type="radio" name="genero" id="genero" value="otro">Otro <br>
+
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Dirección Postal</legend>
+
+            <label for="calle">Calle</label><br>
+            <input type="text" name="calle" id="calle"><br>
+
+            <br>
+            
+            <label for="numCalle">Número</label><br>
+            <input type="text" name="numCalle" id="numCalle"><br>
+
+            <br>
+
+            <label for="piso">Piso</label><br>
+            <input type="text" name="piso" id="piso"><br>
+
+            <br>
+
+            <label for="codp">Código Postal</label><br>
+            <input type="number" name="codp" id="codp"><br>
+
+            <br>
+
+            <label for="ciudad">Ciudad</label><br>
+            <input type="text" name="ciudad" id="ciudad"><br>
+
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Extra</legend>
+
+            <label for="personaje">Personaje</label>
+            <select name="personaje" class="peque">
+                <option value="1">Jessie Pinkman</option>
+                <option value="2">Walter White</option>
+                <option value="3">Saul Goodman</option>
+                <option value="4">Gustavo Fring</option>
+                <option value="5">Pollos Hermanos</option>
+                <option value="6">Otros Personajes</option>
+            </select><br>
+
+            <br>
+            <label for="comments">Comentarios</label><br>
+            <textarea name="comments" id="comments" placeholder="Escribe un comentario..." class="peque"></textarea> <br>
+            <br>
+            <label for="adjuntar">Adjuntar Archivos</label><br>
+            <input type="file" name="adjuntar" accept=".pdf" multiple class="peque"><br>
+        </fieldset>
+        <br>
+        <div class="botones">
+            <input type="submit" value="Enviar" class="peque"> 
+            <input type="reset" value="Borrar" class="peque">
+        </div>
+    </form>
+
+</body>
+</html>

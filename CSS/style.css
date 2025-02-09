@@ -17,10 +17,11 @@
 }
 
 
+/* Index */
 
 .fondo-imagen{
     background-image: url("../IMG/fondo.jpg");
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size: cover;
 }
 
@@ -46,5 +47,42 @@
     color: white;
     text-align: center;
 }
+
+/* Formulario */
+h1{
+    font-family: var(--fuente-helvetica);
+    font-size: var(--texto-grande);
+    text-align: center;
+    color: white;
+}
+
+.formulario{
+    background-color: rgba(0, 0, 0, 0.455);
+    font-family: var(--fuente-helvetica);
+    font-size: var(--texto-peque);
+    width: max-content;
+    padding: 1rem;
+    margin: auto;
+    color: white;
+}
+.formulario fieldset{
+    width: max-content;
+    margin:auto;
+    background-color: rgb(183, 103, 183);
+}
+
+.peque{
+    font-size: var(--texto-peque);
+    font-family: var(--fuente-helvetica);
+}
+
+.botones{
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+
+
 
 
