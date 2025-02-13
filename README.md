@@ -2,5 +2,5 @@
 
 ¿Dónde ver la página web? [Click Aquí](https://lrv491.github.io/)
 
-**Autor:** Lucía Ramírez Verdú
+**Autor:** Lucía Ramírez Verdú\
 **Curso:** 1 DAM
