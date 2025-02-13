@@ -14,6 +14,18 @@
     --fuente-helvetica: 'Helvetica', serif;
     --texto-grande: 40px;
     --texto-peque: 10px;
+    --color-fondo: #0c3e11;
+    --color-fondo-tabla:#33342E;
+    --color1-tabla:#B6D824;
+    --color2-tabla:#D4E875;
+    --color3-tabla:#AA8ECB;
+    --color4-tabla:#EFF6C8;
+    --color5-tabla:#88A316;
+    --color6-tabla:#627025;
+    --color7-tabla:#C4E148;
+    --color8-tabla:#BDC39F;
+    --color9-tabla:#818D4D;
+    --color-tabla-secundaria:#C1C62A;
 }
 
 
@@ -64,11 +76,13 @@ h1{
     padding: 1rem;
     margin: auto;
     color: white;
+    
 }
 .formulario fieldset{
     width: max-content;
     margin:auto;
     background-color: rgb(183, 103, 183);
+    margin-bottom: 1em;
 }
 
 .peque{
@@ -77,12 +91,114 @@ h1{
 }
 
 .botones{
-    display: block;
-    margin: auto;
     text-align: center;
 }
 
+label{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1em;
+}
+
+input{
+    font-size: var(--texto-peque);
+    font-family: var(--fuente-helvetica);
+}
+
+input:focus, textarea:focus{
+    font-size: var(--texto-peque);
+    font-family: var(--fuente-helvetica);
+    color: white;
+    background-color: rgba(0, 0, 0, 0.455);
+}
 
 
+/* Tabla */
 
+img{
+    display: block;
+    margin: auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.cuerpo-tabla{
+    background-color: var(--color-fondo);
+    font-family: var(--fuente-helvetica);
+    font-size: var(--texto-peque);
+    display: block;
+    margin: auto;
+}
+
+table{
+    background-color: var(--color-fondo-tabla);
+    color: var(--color-fondo-tabla);
+    margin: auto;
+    text-align: center;
+    border-spacing: 10px;
+    table-layout: fixed;
+    margin-bottom: 1rem;
+}
+
+td{
+    width: 75px;
+    height: 75px;
+    padding: 0;
+}
+
+#img-tabla-sola{
+    width: 100%;
+    margin: 0;
+}
+
+.grande{
+    font-size: var(--texto-grande);
+    font-weight: bold;
+}
+
+.color1{
+    background-color: var(--color1-tabla);
+}
+
+.color2{
+    background-color:var(--color2-tabla);
+}
+
+.color3{
+    background-color: var(--color3-tabla);
+}
+
+.color4{
+    background-color: var(--color4-tabla);
+}
+
+.color5{
+    background-color: var(--color5-tabla);
+}
+
+.color6{
+    background-color: var(--color6-tabla);
+}
+
+.color7{
+    background-color: var(--color7-tabla);
+}
+
+.color8{
+    background-color: var(--color8-tabla);
+}
+
+.color9{
+    background-color: var(--color9-tabla);
+}
+
+.color-tabla-secundaria{
+    background-color: var(--color-tabla-secundaria);
+}
+
+.imagen-tabla-secundaria{
+    width: 75px;
+    height: 75px;
+    margin: 0;
+}
 
